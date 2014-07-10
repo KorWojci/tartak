@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .templatemo-top-menu {
     min-height:100px;
 	max-height:117px;
-    background-color:#f0edea;
+    background-image: url('../images/d2.gif');
     z-index: 5000;
     width:100%;
 }
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     color: #929292;
 }
 .navbar-default {
-    background-color:#f0edea;
+    background-image: url('../images/d2.gif');
     border:none;
 }
 
