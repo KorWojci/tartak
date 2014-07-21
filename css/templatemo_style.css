@@ -6,8 +6,9 @@ body, html { overflow-x:hidden; }
 
 body {
     background-color: #ffffff;
-    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
-    font-size: 12px;
+    //font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
 
     font-weight: 300; 
     font-style: normal; 
@@ -16,7 +17,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, span, p { 
-    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    //font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-family: 'Cuprum', sans-serif;
 }
 
 * {
@@ -35,12 +37,13 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 .templatemo-top-bar {
     min-height: 40px;
-    background-image: url('../images/pasd.gif');
+    background-color: #3D1F00;
+    //background-image: url('../images/pasd.gif');
 }
 
 .templatemo-top-menu {
     min-height:100px;
-	max-height:117px;
+    max-height:117px;
     background-image: url('../images/pap1.png');
     z-index: 5000;
     width:100%;
@@ -56,27 +59,206 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .templatemo-top-menu {
-	border-bottom:1px solid #603202;
+    border-bottom:1px solid #603202;
 }
 
 #omnie{
-    background-image: url('../images/tlo1.gif');
+    background: 
+        -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.gif'); /* FF3.6+ */
+    background: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        url('../images/tla/tlo1.gif'); /* Chrome,Safari4+ */
+    background: 
+        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.gif'); /* Chrome10+,Safari5.1+ */
+    background: 
+        -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.gif'); /* Opera 11.10+ */
+    background: 
+        -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.gif'); /* IE10+ */
+    background: 
+        linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.gif'); /* W3C */
+
 }
 
 #orders {
-    background-image: url('../images/tlo2.gif'); 
+    background: 
+        -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.gif'); /* FF3.6+ */
+    background: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        url('../images/tla/tlo2.gif'); /* Chrome,Safari4+ */
+    background: 
+        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.gif'); /* Chrome10+,Safari5.1+ */
+    background: 
+        -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.gif'); /* Opera 11.10+ */
+    background: 
+        -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.gif'); /* IE10+ */
+    background: 
+        linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.gif'); /* W3C */ 
 }
 
 #services{
-    background-image: url('../images/tlo3.gif');
+    background: 
+        -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.gif'); /* FF3.6+ */
+    background: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        url('../images/tla/tlo3.gif'); /* Chrome,Safari4+ */
+    background: 
+        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.gif'); /* Chrome10+,Safari5.1+ */
+    background: 
+        -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.gif'); /* Opera 11.10+ */
+    background: 
+        -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.gif'); /* IE10+ */
+    background: 
+        linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.gif'); /* W3C */
+    background: black ;
+}
+
+#gaj{
+    /*
+    background: 
+        -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 100%),
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 100%),
+        url('../images/tla/tlo5.jpg');
+    background: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(8%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))),
+        -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,1)), color-stop(8%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))), 
+        url('../images/tla/tlo5.jpg');
+    background: 
+        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%),
+        -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo5.jpg');
+    background: 
+        -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%),
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo5.jpg');
+    background: 
+        -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%),
+        -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo5.jpg');
+    background: 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%),
+        linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 8%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo5.png');
+    */ 
+    background: 
+        -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.png'); /* FF3.6+ */
+    background: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        url('../images/tla/tlo1.png'); /* Chrome,Safari4+ */
+    background: 
+        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.png'); /* Chrome10+,Safari5.1+ */
+    background: 
+        -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.png'); /* Opera 11.10+ */
+    background: 
+        -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.png'); /* IE10+ */
+    background: 
+        linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo1.png'); /* W3C */
+}
+
+#bryczka{
+    background: 
+        -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.png'); /* FF3.6+ */
+    background: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        url('../images/tla/tlo2.png'); /* Chrome,Safari4+ */
+    background: 
+        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.png'); /* Chrome10+,Safari5.1+ */
+    background: 
+        -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.png'); /* Opera 11.10+ */
+    background: 
+        -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2.png'); /* IE10+ */
+    background: 
+        linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo2_2.png'); /* W3C */
+}
+
+#contact{
+    background: 
+        -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.png'); /* FF3.6+ */
+    background: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0,0,0,1)), color-stop(18%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), 
+        url('../images/tla/tlo3.png'); /* Chrome,Safari4+ */
+    background: 
+        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.png'); /* Chrome10+,Safari5.1+ */
+    background: 
+        -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.png'); /* Opera 11.10+ */
+    background: 
+        -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.png'); /* IE10+ */
+    background: 
+        linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 100%), 
+        url('../images/tla/tlo3.png'); /* W3C */
+    //background-image: url('../images/tla/tlo6.gif');
 }
 /* top */
 
 /*.top-site {
-	background-image:url('../images/las.jpg');
-	background-repeat: no-repeat;
-	height:400px;
-	width:99%;
+        background-image:url('../images/las.jpg');
+        background-repeat: no-repeat;
+        height:400px;
+        width:99%;
 }*/
 
 /* ------ Carousel ----- */
@@ -226,7 +408,8 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-image: url('../images/pasd.gif');
+    background-color: #3D1F00;
+    //background-image: url('../images/pasd.gif');
     color:#fff;
 }
 
@@ -242,7 +425,8 @@ h1, h2, h3, h4, h5, h6, span, p {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-image: url('../images/pasd.gif');
+    background-color: #3D1F00;
+    //background-image: url('../images/pasd.gif');
     color:#fff;
 }
 
