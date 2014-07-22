@@ -66,11 +66,16 @@ jQuery(function($) {
 
 function initialize() {
     var mapOptions = {
-        zoom: 12,
-        center: new google.maps.LatLng(16.8451789, 96.1439764)
+        zoom: 14,
+        center: new google.maps.LatLng(52.418074, 18.772545),
+        disableDefaultUI: true
     };
-
+    var myLatLng = new google.maps.LatLng(52.418074, 18.772545);
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map});
+
 }
 
 // scroll animation 
