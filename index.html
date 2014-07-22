@@ -14,7 +14,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Cuprum:400italic,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-        
+
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
 
@@ -397,18 +397,42 @@
                     <br/><br/>
                     <span class="templatemo-service-item-header"><h2>KONTAKT</h2></span>
                     <br />
-                    TARTAK IZBICA<br />
-                    ul. Warszawska 32<br />
-                    87-865 Izbica Kujawska<br />
-                    <br />
-                    tel. +48 54 286 50 44<br />
-                    fax +48 54 286 08 02<br />
-                    tel. kom. +48 502 537 465<br />
-                    tel. kom. +48 502 482 478<br />
-                    e-mail: biuro@tartakizbica.pl<br />
-                    <br />
-                    +mapka google'a
-                    <br/><br/>
+                    <div>
+                        <div class="col-md-3">
+                            TARTAK IZBICA<br />
+                            ul. Warszawska 32<br />
+                            87-865 Izbica Kujawska<br />
+                            <br />
+                            tel. +48 54 286 50 44<br />
+                            fax +48 54 286 08 02<br />
+                            tel. kom. +48 502 537 465<br />
+                            tel. kom. +48 502 482 478<br />
+                            e-mail: biuro@tartakizbica.pl<br />
+                            <br/><br/>
+                        </div>
+                        <div>
+                            <div id="map_canvas" style='width: 100%;'>
+                                <script src="https://maps.googleapis.com/maps/api/js"></script>
+                                <script>
+                                    myLatLng = new google.maps.LatLng(52.418074, 18.772545);
+                                    function initialize() {
+                                        var map_canvas = document.getElementById('map_canvas');
+                                        var map_options = {
+                                            center: new google.maps.LatLng(52.418074, 18.772545),
+                                            zoom: 14,
+                                            mapTypeId: google.maps.MapTypeId.ROADMAP,
+                                            disableDefaultUI: true
+                                        }
+                                        var map = new google.maps.Map(map_canvas, map_options);
+                                        var marker = new google.maps.Marker({
+                                            position: myLatLng,
+                                            map: map});
+                                    }
+                                    google.maps.event.addDomListener(window, 'load', initialize);
+                                </script>
+                            </div>
+                        </div>
+                    </div>                   
                 </div>
             </div>
         </div>
